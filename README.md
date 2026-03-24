@@ -32,9 +32,13 @@ This project is created to practice and demonstrate core HTML concepts required 
 ## Output
 Displays:
 - A structured form UI
+
+  <img width="408" height="587" alt="form" src="https://github.com/user-attachments/assets/b5136c6d-7ac5-44b1-8e50-143c4dc8ebda" />
+
 - A simple student data table
 
+  <img width="862" height="488" alt="image" src="https://github.com/user-attachments/assets/be723b98-145b-4526-a27f-7249cbf1253d" />
 
-⭐ If you like this project, consider giving it a star
+
 
 ⭐ If you like this project, consider giving it a star!
