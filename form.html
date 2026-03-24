@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <fieldset>
+                <legend>Student Registration</legend>
+                
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="e.g. John Doe" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Date of Birth</label>
+                    <input type="date" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Roll Number</label>
+                    <input type="text" placeholder="Enter ID number">
+                </div>
+
+                <div class="radio-group">
+                    <label class="section-label">Gender</label>
+                    <div class="options">
+                        <label><input type="radio" name="gender"> Male</label>
+                        <label><input type="radio" name="gender"> Female</label>
+                        <label><input type="radio" name="gender"> Others</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="section-label">Enrolled Courses</label>
+                    <div class="options">
+                        <label><input type="checkbox"> DBMS</label>
+                        <label><input type="checkbox"> SQL</label>
+                        <label><input type="checkbox"> JDBC</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Primary Subject</label>
+                    <select>
+                        <option disabled selected>Select a subject</option>
+                        <option>Computer Networks</option>
+                        <option>Networking</option>
+                        <option>DBMS</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
